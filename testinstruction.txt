@@ -1,0 +1,3 @@
+javac -cp "lib/junit/*;bin" -d bin test/TestExample.java
+
+java -cp "lib/junit/*;bin" org.junit.platform.console.ConsoleLauncher --scan-class-path
