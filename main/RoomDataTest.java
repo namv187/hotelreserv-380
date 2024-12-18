@@ -7,7 +7,7 @@ public class RoomDataTest {
     private Room testRoom;
 
     @BeforeEach
-    public void setUp() {
+    public void init() {
         roomData = new RoomData();
         testRoom = new Room(300, "300", Room.RoomType.SINGLE, 99.99, true);
     }

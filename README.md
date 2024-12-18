@@ -61,8 +61,9 @@ java --module-path ./lib/javafx-sdk-23.0.1/lib --add-modules javafx.controls,jav
 Windows-JUnit-Tests:
 javac --module-path ./lib/javafx-sdk-23.0.1/lib --add-modules javafx.controls,javafx.fxml -cp ".;lib/junit/*;main/*;window-mysql-connector/*" -d bin main/*.java
 
-
-java --module-path ./lib/javafx-sdk-23.0.1/lib --add-modules javafx.controls,javafx.fxml -cp ".;lib/junit/*;main/*;window-mysql-connector/*" main.Main
-
-
 java -cp "lib/junit/*;main" org.junit.platform.console.ConsoleLauncher --scan-class-path
+
+windows prototyping:
+javac --module-path ./lib/javafx-sdk-23.0.1/lib --add-modules javafx.controls,javafx.fxml -classpath .;window-mysql-connector/* main/*.java
+
+java --module-path ./lib/javafx-sdk-23.0.1/lib --add-modules javafx.controls,javafx.fxml -classpath .;window-mysql-connector/* main.HotelSystem
