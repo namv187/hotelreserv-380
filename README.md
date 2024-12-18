@@ -2,6 +2,8 @@
 
 JAVADOCS: [Link](https://rpalmon.github.io/hotelreserv-380/main/package-summary.html)
 
+# Follow instructions.pdf file for installation steps.
+
 # MySQL Setup and Database Integration Guide
 
 ## 1. MySQL Setup
